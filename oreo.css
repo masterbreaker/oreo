@@ -1,0 +1,91 @@
+body{
+background: rgb(0,202,255);
+background: radial-gradient(circle, rgba(0,202,255,1) 0%, rgba(9,9,121,1) 100%);
+}
+
+#logo{
+    padding-top:50px;
+    padding-right:1000px;
+    height:200px;
+}
+
+#heading{
+    font-family: "Chivo", sans-serif;
+    text-shadow:3px 3px rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+}
+
+#flex{
+    width:100px;
+    padding-left:1000px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+
+.oreo{
+    width: 100%;
+    padding: 80px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.oreo img{
+    height:auto;
+    width: 420px;
+}
+.oreo-text{
+width: 550px;
+}
+.main{
+    width: 1130;
+    max-width:95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.oreo-text h1{
+    color:White;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.oreo-text h5{
+    color:White;
+    font-size:25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+     text-shadow:1px 3px rgb(53, 53, 53);
+}
+
+span{
+    color:#ffffff;
+}
+
+.oreo-text p{
+    color:rgba(19, 1, 1, 0.843);
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.head{
+    text-shadow:3px 3px rgb(53, 53, 53);
+}
+
+.embed{
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    text-shadow:3px 3px rgb(53, 53, 53);
+    color: white;
+}
+
+.vid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
